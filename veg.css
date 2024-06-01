@@ -1,0 +1,151 @@
+.navbar {
+  background-color: rgb(231, 229, 229);
+  width: 97vw;
+  height: 3rem;
+  padding-left: 2rem;
+}
+.main {
+  display: inline;
+  margin-left: 20rem;
+  text-align: center;
+  height: auto;
+}
+.main2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7rem;
+  margin-top: 1.5rem;
+}
+.drop2 {
+  display: flex;
+  flex-direction: column;
+}
+.main3 {
+  background-color: rgb(244, 244, 244);
+  width: auto;
+  margin-right: 8rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 27rem;
+  justify-content: space-between;
+}
+.imagev {
+  width: 40%;
+  float: right;
+  margin-right: 10rem;
+  height: auto;
+  margin-left: 0;
+}
+.text {
+  color: rgb(119, 194, 84);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+}
+.text2 {
+  color: rgb(2, 2, 2);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.textimage {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5rem;
+  width: 60%;
+  padding-top: 7rem;
+  margin-left: 1rem;
+}
+.text3 {
+  color: rgb(150, 148, 148);
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.butt {
+  border: 1rem solid rgb(119, 194, 84);
+  background-color: rgb(119, 194, 84);
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+  width: 11rem;
+  height: 3rem;
+  padding-bottom: 1.5rem;
+}
+.main4 {
+  width: auto;
+  margin-right: 8rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin-left: 7rem;
+}
+.box1 {
+  width: 17rem;
+  border: 0.1rem solid rgb(244, 244, 244);
+  background-color: rgb(244, 244, 244);
+  height: 15rem;
+}
+.box2 {
+  width: 17rem;
+  border: 0.1rem solid rgb(244, 244, 244);
+  background-color: rgb(244, 244, 244);
+  margin-left: 2.8rem;
+  height: 15rem;
+}
+.box3 {
+  width: 17rem;
+  border: 0.1rem solid rgb(244, 244, 244);
+  background-color: rgb(243, 247, 255);
+  margin-left: 3rem;
+  height: 15rem;
+}
+.box4 {
+  width: 17rem;
+  border: 0.1rem solid rgb(244, 244, 244);
+  background-color: rgb(244, 244, 244);
+  margin-left: 3rem;
+  height: 15rem;
+}
+.textbox1 {
+  color: black;
+  background-color: white;
+  border: 0.1rem solid white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.textbox2 {
+  color: black;
+  background-color: white;
+  border: 0.1rem solid white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.textbox3 {
+  color: black;
+  background-color: white;
+  border: 0.1rem solid white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 3rem;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.textbox4 {
+  color: black;
+  background-color: white;
+  border: 0.1rem solid white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-left: 3rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

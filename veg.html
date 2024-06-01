@@ -1,0 +1,394 @@
+<html>
+  <head>
+    <title>Vegetable store</title>
+    <link rel="stylesheet" href="veg.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <nav
+      style="width: auto; padding-left: 3rem"
+      class="navbar bg-body-tertiary"
+    >
+      <div style="margin-top: 0; display: inline" class="container-fluid">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-envelope-fill ms-5"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"
+          />
+        </svg>
+        <a
+          style="
+            text-decoration: none;
+            color: rgb(113, 108, 108);
+            border-right: 0.01rem solid rgb(113, 108, 108);
+            margin-top: 0;
+            font-size: smaller;
+            padding-right: 2rem;
+            margin-left: 0%;
+          "
+          class="navbar-brand"
+          href="#"
+        >
+          hello@colrib.com</a
+        >
+        <span style="color: rgb(113, 108, 108); margin-left: 1rem"
+          >Free shipping for all order of $99</span
+        >
+        <span
+          style="
+            margin-left: 28rem;
+            margin-bottom: 3rem;
+            padding-right: 1rem;
+            border-right: 0.01rem solid rgb(185, 185, 185);
+          "
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-facebook"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-twitter ms-3"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-linkedin ms-3"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-pinterest ms-3"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0"
+            />
+          </svg>
+        </span>
+
+        <img src="flag.png" alt="flag" style="width: 2rem; margin-left: 1rem" />
+        <span
+          class="dropdown"
+          style="border-right: 0.01rem solid rgb(185, 185, 185)"
+        >
+          <button
+            class="btn btn-light dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            English
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Arabic</a></li>
+          </ul>
+        </span>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-person-fill ms-3"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+          />
+        </svg>
+        <span style="color: (185, 185, 185)"> Login</span>
+      </div>
+    </nav>
+  </head>
+  <body>
+    <div class="main">
+      <a
+        style="
+          color: rgb(119, 194, 84);
+          margin-left: 7.5rem;
+          font-weight: bold;
+          font-size: larger;
+          text-decoration: none;
+        "
+        href="www.home.com"
+        >Home</a
+      >
+      <a
+        style="
+          color: rgb(0, 0, 0);
+          margin-left: 3rem;
+          font-weight: bold;
+          font-size: larger;
+          text-decoration: none;
+        "
+        href="www.home.com"
+        >Shop</a
+      >
+      <a
+        style="
+          color: rgb(0, 0, 0);
+          margin-left: 3rem;
+          font-weight: bold;
+          font-size: larger;
+          text-decoration: none;
+        "
+        href="www.home.com"
+        >Pages</a
+      >
+      <a
+        style="
+          color: rgb(0, 0, 0);
+          margin-left: 3rem;
+          font-weight: bold;
+          font-size: larger;
+          text-decoration: none;
+        "
+        href="www.home.com"
+        >Blog</a
+      >
+      <a
+        style="
+          color: rgb(0, 0, 0);
+          margin-left: 3rem;
+          font-weight: bold;
+          font-size: larger;
+          text-decoration: none;
+        "
+        href="www.home.com"
+        >Contact
+      </a>
+      <span style="margin-left: 14.5rem">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-heart-fill ms-5"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-bag-dash-fill ms-2"
+          viewBox="0 0 16 16"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M6 9.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1z"
+          />
+        </svg>
+      </span>
+      <span style="color: rgb(161, 158, 158); margin-left: 1rem">item </span>
+      <span style="font-weight: bold"> $150.00 </span>
+    </div>
+    <div class="main2">
+      <span class="dropdown drop2">
+        <button
+          class="btn btn-light dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="
+            width: 17rem;
+            border-radius: 0%;
+            color: white;
+            height: auto;
+            padding-right: 2rem;
+            font-weight: bold;
+            background-color: rgb(119, 194, 84);
+          "
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+            style="margin-bottom: 0.4rem; font-weight: bold"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+          All departments
+        </button>
+        <ul class="dropdown-menu w-100">
+          <li><a class="dropdown-item ps-4 pb-2" href="#">Fresh Meat </a></li>
+          <li><a class="dropdown-item ps-4 pb-3" href="#">Vegetables </a></li>
+          <li>
+            <a class="dropdown-item ps-4 pb-2" href="#">Fruit & Nut Gifts</a>
+          </li>
+          <li><a class="dropdown-item ps-4 pb-3" href="#">Fresh Berries</a></li>
+          <li><a class="dropdown-item ps-4 pb-3" href="#">Ocean Foods</a></li>
+          <li><a class="dropdown-item ps-4 pb-2" href="#">Butter & Eggs</a></li>
+          <li><a class="dropdown-item ps-4 pb-3" href="#">FastFood</a></li>
+          <li><a class="dropdown-item ps-4 pb-2" href="#">Fresh Onion</a></li>
+          <li>
+            <a class="dropdown-item ps-4 pb-md-2" href="#">Papaya & Crisps</a>
+          </li>
+          <li><a class="dropdown-item ps-4 pb-3" href="#">Qatmeal</a></li>
+          <li><a class="dropdown-item ps-4" href="#">Fresh Bananas</a></li>
+        </ul>
+      </span>
+      <span class="dropdown drop3">
+        <span
+          class="btn btn-light dropdown-toggle ms-5"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="
+            width: 12rem;
+            border-radius: 0%;
+            color: rgb(52, 49, 49);
+            height: auto;
+            font-weight: bold;
+            background-color: rgb(255, 255, 255);
+          "
+        >
+          All Categories
+        </span></span
+      >
+      <input type="search" placeholder="What do u need?" style="width: 20rem" />
+      <button
+        style="
+          background-color: rgb(119, 194, 84);
+          color: white;
+          width: 11rem;
+          height: auto;
+          border: none;
+        "
+      >
+        Search
+      </button>
+      <i
+        class="bx bx-phone bx-sm"
+        style="
+          color: #77c254;
+          margin-top: 0.3rem;
+          border-radius: 50%;
+          width: 2.5rem;
+          height: 2.5rem;
+          padding-top: 0.4rem;
+          padding-left: 0.3rem;
+          border: 0.1rem solid rgb(224, 224, 224);
+          background-color: rgb(224, 224, 224);
+          margin-left: 4rem;
+        "
+      ></i>
+      <span
+        ><p
+          style="
+            font-weight: bolder;
+            margin-left: 0.5rem;
+            color: black;
+            font-size: large;
+            margin: 0%;
+          "
+        >
+          +65 11.188.888
+        </p>
+        <span
+          style="
+            color: rgb(175, 175, 175);
+            font-size: small;
+            margin-left: 0.4rem;
+            margin-top: 0rem;
+          "
+          >Support 24/7 time</span
+        >
+      </span>
+    </div>
+    <div class="main3">
+      <section class="textimage">
+        <span class="text"> FRUIT FRESH</span>
+        <span class="text2"> Vegetable 100% organic</span>
+        <br />
+        <span class="text3"> Free Pickup And Delivery Available</span>
+        <button class="butt">SHOP NOW</button>
+      </section>
+      <section class="imagev">
+        <img src="tomato.jpg" />
+      </section>
+    </div>
+    <div class="main4">
+      <span class="box1">
+        <img src="allveg.jpg" alt="veg" />
+        <br /><br />
+
+        <span class="textbox1"> VEGETABLES</span>
+      </span>
+      <span class="box2">
+        <img src="juice.jpg" alt="juice" />
+        <br />
+        <br />
+        <span class="textbox2"> DRINK FRUITS</span>
+      </span>
+      <span class="box3">
+        <img
+          src="dff.png"
+          alt="drinkfruit"
+          style="margin-left: 2rem; margin-top: 1rem"
+        />
+        <br /><br />
+        <br />
+        <br />
+        <span class="textbox3"> DRINK FRUITS</span>
+      </span>
+      <span class="box4">
+        <img src="orange.jpg" alt="freshfruit" style="margin-top: 1rem" />
+        <br />
+        <br />
+        <span class="textbox4"> FRESH FRUITS</span>
+      </span>
+    </div>
+  </body>
+</html>
